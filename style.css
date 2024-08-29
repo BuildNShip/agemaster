@@ -1,15 +1,14 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     background-color: black;
     font-family: 'Manrope', sans-serif;
-  }
-  
-  .container {
-    padding: 20px;
+}
+
+.container {
     color: white;
     text-align: center;
     display: flex;
@@ -17,25 +16,24 @@
     justify-content: space-evenly;
     min-height: 90vh;
     align-items: center;
-    text-align: center;
     padding: 2rem;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 3rem;
     font-weight: 700;
     max-width: 45rem;
     text-align: center;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  input[type="text"] {
-    border: 1px solid hsla(0,0%,100%,.1);
+}
+
+input[type="text"] {
+    border: 1px solid hsla(0, 0%, 100%, .1);
     background-color: #ffffff0d;
     border-radius: 8px 0 0 8px;
     padding: 15px;
@@ -54,9 +52,9 @@
     text-decoration: none;
     text-transform: none;
     margin: 20px 0;
-  }
-  
-  button {
+}
+
+button {
     line-height: inherit;
     background: transparent;
     border-radius: 0 8px 8px 0;
@@ -66,26 +64,24 @@
     font-weight: 700;
     font-family: inherit;
     cursor: pointer;
-    transition: border-color .25s;
     color: #ecba00;
     transition: .3s ease-in-out;
 }
-  }
-  
-  .result {
+
+.result {
     margin-top: 20px;
     text-align: center;
-  }
-  
-  .result p {
+}
+
+.result p {
     margin: 5px 0;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
     max-width: 45rem;
     text-align: center;
-  }
-  
-  .or{
+}
+
+.or {
     color: #ecba00;
-  }
+}
